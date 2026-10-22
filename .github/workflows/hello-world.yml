@@ -7,8 +7,8 @@ on:
 
 jobs:
   build:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Say Hello
-      run: echo "Hello, Github Actions!"
+    steps:
+      - name: Say Hello
+        run: echo "Hello, Github Actions!"
